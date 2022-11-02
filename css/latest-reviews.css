@@ -1,0 +1,46 @@
+
+.latest-reviews__title{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.text-justify{
+    text-align: justify;
+}
+.latest-reviews__subtitle{    
+    padding: 15px;
+}
+.latest-reviews__content{
+    margin-top: 10%;
+}
+.latest-reviews__content-block{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+.latest-reviews__content-block-image1{
+    background: url("../images/latest-reviews-img1.jpg") top no-repeat;
+    background-size: cover;  
+    padding-bottom: 150px;
+    margin-left: 10%;    
+}
+.latest-reviews__content-block-image2{
+    background: url("../images/latest-reviews-img2.jpg") top no-repeat;
+    background-size: cover;  
+    padding-bottom: 150px;
+    margin-left: 10%;    
+}
+.latest-reviews__btn{
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Poor Story', cursive;
+}
+@media screen and (max-width: 1150px) {
+    .latest-reviews{
+        border-left: 2px solid #6f827d ; 
+        border-right: 2px solid #6f827d ; 
+        margin-bottom: 20px;
+    }
+}

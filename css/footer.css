@@ -1,0 +1,19 @@
+.footer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    height: 100px;
+}
+.footer__copyright_font{
+    color: white;
+    font-size: 20px;
+}
+.footer__help-info{
+    justify-self: end;
+    line-height: 20px;
+}
+.footer__help-info ul li a{
+    color: white;
+}

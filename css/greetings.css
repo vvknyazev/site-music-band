@@ -1,0 +1,25 @@
+.greetings{
+    text-align: center;
+}
+.greetings__title{
+    padding-top: 5%;
+    margin-bottom: 20px;
+}
+.title-font{
+    font-size: 50px;
+    font-style: bold;
+}
+.subtitle-font{
+    font-size: 30px;
+    font-family: 'Poor Story', cursive;
+}
+
+@media screen and (max-width: 768px) {
+    .title-font{
+        font-size: 35px;
+    }
+    .subtitle-font{
+        font-size: 20px;
+    }
+
+}

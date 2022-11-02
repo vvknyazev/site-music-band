@@ -1,0 +1,25 @@
+.container{
+    max-width: 1200px;  
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+.container-fluid{
+    background: linear-gradient(rgb(8, 8, 8), rgb(16, 16, 16));
+}
+.main{
+    margin-top: 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 2em;
+}
+
+@media screen and (max-width: 1150px) {
+    .main{
+        grid-template-columns:none;        
+        max-width: 600px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;       
+    }   
+}

@@ -1,0 +1,32 @@
+
+.header{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    align-items: center;
+    font-size: 25px;
+}
+.header__logo_size{
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.header__nav{
+    justify-self: end;
+}
+.header__nav_position{
+    margin-left: 45px;
+}
+.text-white{
+    color: white;   
+}
+@media screen and (max-width: 768px) {
+    .header__logo_size{
+        width: 50%;
+    }
+    .header {
+      font-size: 12px;
+    }
+    .header__nav_position{
+        margin-left: 25px;
+    }
+}

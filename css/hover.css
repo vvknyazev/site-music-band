@@ -1,0 +1,17 @@
+ul li a:hover{
+    color: #6f827d;
+}
+.btn-gray:hover{    
+    background-color:#6f827d
+}
+.news__btn-right:hover{
+    background-color:#6f827d;
+    border-radius: 25px;
+}
+.news__btn-left:hover{
+    background-color:#6f827d;
+    border-radius: 25px;
+}
+.footer__help-info ul li a:hover{
+    color: gray;
+}

@@ -1,0 +1,31 @@
+body{
+    font-family: 'Grenze Gotisch', cursive;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 3px 0;
+    display: inline-block;
+}
+ul li a{
+    color: #292929;
+    text-decoration: none;
+}
+
+.header-background{
+    width: 100%;
+    vertical-align: top;
+}
+.main-background{
+    background: url("../images/bg.jpg") center top;
+    background-size: cover;
+    margin: 0;  
+    padding: 0;
+}
+
+
+
